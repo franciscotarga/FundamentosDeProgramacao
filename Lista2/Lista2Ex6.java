@@ -7,7 +7,7 @@ public class Lista2Ex6
         Scanner input = new Scanner(System.in);
         
         System.out.print("Informe o seu saldo médio: ");
-        saldo = input.nextDouble;
+        saldo = input.nextDouble();
         
         if(saldo<500){
             System.out.print("Não há limite");
